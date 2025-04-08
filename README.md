@@ -47,7 +47,7 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/PatoCareca1/my-blog.git
+git clone https://github.com/PatoCareca1/blog-pessoal.git
 cd blog-pessoal
 
 # Instale as dependências
