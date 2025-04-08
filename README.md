@@ -1,54 +1,105 @@
-# React + TypeScript + Vite
+# 💻 Lucas Daniel — Desenvolvedor Full Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Seja bem-vindo ao meu espaço técnico! Aqui compartilho projetos que envolvem **desenvolvimento web**, **automação**, **scripts úteis**, e também conteúdos relacionados ao **mundo fitness**, unindo duas grandes paixões: código e treino.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📰 Projeto em Destaque: Blog Pessoal Técnico & Fitness
 
-## Expanding the ESLint configuration
+Este é um blog pessoal feito com foco em **desenvolvimento técnico** e **estilo de vida fitness**. Ele une duas grandes áreas de interesse em um ambiente moderno, animado e responsivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔧 Tecnologias e Ferramentas Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **[React](https://reactjs.org/)** com **[Vite](https://vitejs.dev/)** — Front-end SPA rápido e moderno
+- **[TypeScript](https://www.typescriptlang.org/)** — Tipagem estática para maior robustez
+- **[React Router DOM](https://reactrouter.com/en/main)** — Navegação entre páginas
+- **[Tailwind CSS](https://tailwindcss.com/)** — Estilização utilitária e responsiva
+- **React Icons** — Ícones personalizados
+- **Framer Motion** — Animações suaves entre páginas
+
+### 📂 Estrutura de Páginas
+
+- `/` → Página Inicial (tema fitness, gradiente verde)
+- `/devposts` → Postagens sobre programação (tema azul)
+- `/fitnessposts` → Postagens sobre treino, dieta e saúde (tema verde escuro)
+- `/about` → Página sobre o desenvolvedor (gradiente cinza)
+
+Cada rota altera dinamicamente o **gradiente de fundo**, reforçando visualmente o tema da seção.
+
+---
+
+## 📁 Estrutura do Código
+
+```
+src/
+├── assets/            # Imagens e ícones
+├── components/        # Componentes reutilizáveis (Header, Footer, PageWrapper)
+├── pages/             # Páginas individuais (Home, DevPosts, FitnessPosts, About)
+├── styles/            # Arquivos CSS (Tailwind e customizações)
+├── App.tsx            # Componente principal com rotas
+├── main.tsx           # Ponto de entrada
+└── index.css          # Tailwind e estilos globais
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Como Rodar Localmente
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+# Clone o repositório
+git clone https://github.com/PatoCareca1/blog-pessoal.git
+cd blog-pessoal
+
+# Instale as dependências
+npm install
+
+# Rode o servidor local
+npm run dev
 ```
+
+---
+
+## 📦 Principais Dependências
+
+- `react`, `react-dom`
+- `vite`
+- `typescript`
+- `tailwindcss`, `postcss`, `autoprefixer`
+- `react-router-dom`
+- `framer-motion`
+- `react-icons`
+
+> Veja o [`package.json`](./package.json) para detalhes completos.
+
+---
+
+## ✨ Funcionalidades
+
+- ✅ Layout animado com Framer Motion
+- ✅ Gradiente dinâmico por rota
+- ✅ Responsividade total com Tailwind
+- ✅ Componentes reutilizáveis e organizados
+- ✅ Cards com ícones personalizados
+- 🚧 Novas funcionalidades em breve (comentários, formulário com busca por CEP)
+
+---
+
+## 🚀 Explore Outros Projetos
+
+Este blog é apenas um dos vários projetos que desenvolvi.  
+Confira meu GitHub para ver:
+
+📁 [Outros Repositórios](https://github.com/PatoCareca1?tab=repositories)  
+🔗 [Perfil no GitHub](https://github.com/PatoCareca1)
+
+---
+
+## 📫 Contato
+
+📧 LucasDan16@outlook.com  
+💼 [LinkedIn](https://www.linkedin.com/in/lucas-daniel-costa-souza/)  
+🐙 [GitHub](https://github.com/PatoCareca1)
+
+---
+
+> Desenvolvido com 💙 por Lucas Daniel
