@@ -5,10 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaLaptopCode,
-  FaBrain,
   FaTools,
-  FaSchool,
-  FaCodeBranch,
   FaLayerGroup,
 } from "react-icons/fa";
 import PageWrapper from "../components/PageWrapper";
@@ -33,7 +30,7 @@ export default function About() {
             <FaUser className="text-6xl text-blue-700 mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Lucas Daniel</h2>
             <p className="text-sm mb-2">
-              Desenvolvedor Full Stack | Python (Django) | React | Tailwind CSS
+              Desenvolvedor Full Stack | Python | Typescript | Django | React |
             </p>
             <p className="text-sm">Estudante de Ciência da Computação - UERN</p>
           </div>
